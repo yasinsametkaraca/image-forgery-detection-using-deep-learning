@@ -25,15 +25,17 @@ This project aims to detect image forgeries using various deep learning models. 
 ## Dataset Preparation
 
 Ensure your dataset is structured as follows:
-dataset/
-authentic/
-image1.jpg
-image2.jpg
-...
-forged/
-image1.jpg
-image2.jpg
-...
+
+dataset/authentic/image1.jpg,
+dataset/authentic/image2.jpg ...
+
+dataset/forged/image1.jpg
+dataset/forged/image2.jpg ...
+
+You must replace the path with the path to your dataset.
+
+Dataset link: [Image Forgery Dataset](https://www.kaggle.com/datasets/sophatvathana/casia-dataset/data)
+
 
 ## Model Training and Evaluation
 
